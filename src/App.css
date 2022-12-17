@@ -1,5 +1,7 @@
-.App {
+/* .App {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .App-logo {
@@ -35,4 +37,31 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body{
+  background-image: url('/src/bg/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-div {
+  height: 70vh;
+}
+
+.card {
+  width: 300px;
+  height: 600px;
+}
+.card-badge {
+  display: flex;
+  justify-content: space-between;
+}
+.table {
+  width: 283px !important;
+margin-left: -30px;
+}
+.stats {
+  background-color: #58cea2 !important;
+  height: 300px !important;
 }
